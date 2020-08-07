@@ -1,0 +1,23 @@
+{
+  "name": "zlodes/phpunit-phpdbg-coverage-bug",
+  "authors": [
+    {
+      "name": "Zlatoslav Desyatnikov",
+      "email": "px.zlodes@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Zlodes\\PhpUnitCoverageBugDemo\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Zlodes\\PhpUnitCoverageBugDemo\\Tests\\": "tests/"
+    }
+  },
+  "require": {},
+  "require-dev": {
+      "phpunit/phpunit": "9.3.0"
+  }
+}
